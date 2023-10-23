@@ -3,7 +3,7 @@ import { View,Button,Text, TextInput,StyleSheet} from "react-native";
 
 
 
-function Login ({navigation}){
+function Login (){
 return(
     <>
 
@@ -14,8 +14,7 @@ return(
      <TextInput  style={styles.texpaswor} placeholder="****"/> 
      <Button
         title="Go to Details"
-        onPress={() => navigation.navigate('Details')}
-        
+    
       />
 
      
@@ -52,7 +51,6 @@ const styles= StyleSheet.create({
 
     },
     texuser: {
-
         width:150,
         height:50,
         borderRadius:8,

@@ -123,14 +123,14 @@ return(
 
     <View style={style.square}>
     <Pressable onPress={() => setTomate(true)}>
-      <Image source={require('../../image_cultivos/tomate.png')} style={style.ContenedorImagen}/>
+      <Image source={require('../../image/tomate.png')} style={style.ContenedorImagen}/>
       </Pressable>
     </View>
 
 
     <View style={style.square}>
     <Pressable onPress={() => setFresa(true)}>
-    <Image source={require('../../image_cultivos/fresa.png')} style={style.ContenedorImagen}/>
+    <Image source={require('../../image/fresa.png')} style={style.ContenedorImagen}/>
     </Pressable>
     </View>
 </View>{/*Fin de row*/}
@@ -139,14 +139,14 @@ return(
 
     <View style={style.square}>
     <Pressable onPress={() => setLechuga(true)}>
-    <Image source={require('../../image_cultivos/lechuga.png')} style={style.ContenedorImagen}/>
+    <Image source={require('../../image/lechuga.png')} style={style.ContenedorImagen}/>
     </Pressable>
     </View>
 
 
     <View style={style.square}>
     <Pressable onPress={() => setPeregil(true)}>
-    <Image source={require('../../image_cultivos/peregil.png')} style={style.ContenedorImagen}/>  
+    <Image source={require('../../image/peregil.png')} style={style.ContenedorImagen}/>  
     </Pressable>
     </View>
 
@@ -157,13 +157,13 @@ return(
 
     <View style={style.square}>
     <Pressable onPress={() => setApio(true)}>
-    <Image source={require('../../image_cultivos/apio.png')} style={style.ContenedorImagen}/> 
+    <Image source={require('../../image/apio.png')} style={style.ContenedorImagen}/> 
     </Pressable>
     </View>
 
     <View style={style.square}>
     <Pressable onPress={() => setAjo(true)}>
-    <Image source={require('../../image_cultivos/ajo.png')} style={style.ContenedorImagen}/> 
+    <Image source={require('../../image/ajo.png')} style={style.ContenedorImagen}/> 
     </Pressable>
     </View>
     

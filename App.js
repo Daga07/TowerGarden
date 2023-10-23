@@ -16,7 +16,7 @@ import Login from './scr/Login/Login';
     <>
     
     <SafeAreaView style={styles.container}>
-      <Registro/>
+      <Home/>
     </SafeAreaView></>
   );
 }

@@ -8,7 +8,7 @@ const Imhome =()=>{
     return(
 <>
 <View style={style.imagenh}>
-<Image source={require('../../images/logo02.png')} style={style.contenedorimagen}/>
+<Image source={require('../../images/towerucev.png')} style={style.contenedorimagen}/>
 </View>
 </>
 )
@@ -19,14 +19,13 @@ imagenh:{
     flexDirection: "column",
     alignItems: "center",
     height:120,
-    borderWidth: .1,
-    borderRadius:20,
+    margin:20,
     borderColor:'#C2DDD7'
 
     
 },
 contenedorimagen:{
-    width:300,
+    width:200,
     height:120,
 
 

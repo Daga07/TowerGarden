@@ -10,10 +10,10 @@ return(
     <View style={styles.logeo}>
     <Text style={styles.titulouser}>INGRESAR USUARIO</Text>
      <TextInput  style={styles.texuser} placeholder="Correo" /> 
-     <Text style={styles.titulocontr}>INGRESAR CONTRASEÑA</Text>
+     <Text style={styles.titulouser}>INGRESAR CONTRASEÑA</Text>
      <TextInput  style={styles.texpaswor} placeholder="****"/> 
      <Button
-        title="Go to Details"
+        title="ingresar"
     
       />
 
@@ -38,15 +38,15 @@ const styles= StyleSheet.create({
         borderBottomWidth: 10,
         borderRadius: 15, 
         borderWidth: 2.5,
-        borderColor:'#C2DDD7',
-        borderTopRightRadius:30,
-        borderTopLeftRadius:30,
+        borderColor:'#4BAC51',
+      //  borderTopRightRadius:30,
+      //  borderTopLeftRadius:30,
         
     },
     
 
     titulouser:{
-        marginVertical:20,
+        margin:15,
         fontFamily: 'sans-serif-light',
 
     },
@@ -60,10 +60,7 @@ const styles= StyleSheet.create({
         
 
       },
-    titulocontr:{
-        marginVertical:15,
-
-    },
+  
     texpaswor:{
         width:150,
         height:50,
@@ -77,30 +74,6 @@ const styles= StyleSheet.create({
     button:{
         
     },
-
-/* <>
-
-
-    
-    <View style={styles.logeo}>
-    <Text style={styles.titulouser}>INGRESAR USUARIO</Text>
-
-
-
-     <TextInput  style={styles.texuser} placeholder="Correo" /> 
-     <Text style={styles.titulocontr}>INGRESAR CONTRASEÑA</Text>
-     <TextInput  style={styles.texpaswor} placeholder="****"/> 
-     <Button
-        title="Go to Details"
-        onPress={() => navigation.navigate('Details')}
-        
-      />
-
-     
-    </View>
-
-    
-    </> */
 
 })
 
